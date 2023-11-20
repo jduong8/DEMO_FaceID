@@ -12,6 +12,7 @@
 		13AA31242B0B8C370012E612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA31232B0B8C370012E612 /* Assets.xcassets */; };
 		13AA31272B0B8C370012E612 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA31262B0B8C370012E612 /* Preview Assets.xcassets */; };
 		13AA31302B0B9ABB0012E612 /* Image+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA312F2B0B9ABB0012E612 /* Image+Generated.swift */; };
+		13AA31332B0BB3BA0012E612 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA31322B0BB3BA0012E612 /* AuthenticationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		13AA31262B0B8C370012E612 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		13AA312D2B0B905A0012E612 /* DEMO-FaceID-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DEMO-FaceID-Info.plist"; sourceTree = SOURCE_ROOT; };
 		13AA312F2B0B9ABB0012E612 /* Image+Generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Generated.swift"; sourceTree = "<group>"; };
+		13AA31322B0BB3BA0012E612 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		13AA311E2B0B8C360012E612 /* DEMO_FaceID */ = {
 			isa = PBXGroup;
 			children = (
+				13AA31312B0BB3AA0012E612 /* ViewModel */,
 				13AA312E2B0B9AAA0012E612 /* Resources */,
 				13AA312D2B0B905A0012E612 /* DEMO-FaceID-Info.plist */,
 				13AA311F2B0B8C360012E612 /* DEMO_FaceIDApp.swift */,
@@ -78,6 +81,14 @@
 				13AA312F2B0B9ABB0012E612 /* Image+Generated.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		13AA31312B0BB3AA0012E612 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				13AA31322B0BB3BA0012E612 /* AuthenticationManager.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13AA31302B0B9ABB0012E612 /* Image+Generated.swift in Sources */,
+				13AA31332B0BB3BA0012E612 /* AuthenticationManager.swift in Sources */,
 				13AA31222B0B8C360012E612 /* ContentView.swift in Sources */,
 				13AA31202B0B8C360012E612 /* DEMO_FaceIDApp.swift in Sources */,
 			);
