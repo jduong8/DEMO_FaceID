@@ -20,8 +20,8 @@ Configuration du projet pour le face id:
 
 Étape 4:
 
-Ajout des différentes assets récupéré dans le [Figma](https://www.figma.com/file/hpb4dhAz0CoB2ihXAMQZWs/ChestApp?type=design&node-id=0%3A1&mode=design&t=crUgKj8yDUL8wd5H-1)
-Ajout d'un fichier Image+Generated.swift
+- Ajout des différentes assets récupéré dans le [Figma](https://www.figma.com/file/hpb4dhAz0CoB2ihXAMQZWs/ChestApp?type=design&node-id=0%3A1&mode=design&t=crUgKj8yDUL8wd5H-1)
+- Ajout d'un fichier Image+Generated.swift
 
 Étape 5:
 
