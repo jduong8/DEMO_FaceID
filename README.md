@@ -14,9 +14,9 @@ Création du projet
 
 Étape 3:
 
-Configuration du projet pour le face id
-Ajout de la key: `Privacy - Face ID Usage Description`
-Ajout de la value: `Unlock data` ou autre chose d'explicite.
+Configuration du projet pour le face id:
+- Ajout de la key: `Privacy - Face ID Usage Description`
+- Ajout de la value: `Unlock data` ou autre chose d'explicite.
 
 Étape 4:
 
